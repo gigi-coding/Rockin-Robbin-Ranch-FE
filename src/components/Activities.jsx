@@ -16,6 +16,7 @@ function Activities() {
             <img className='w-full h-full object-cover' src={DesertHike} alt='/' />
             <img className='w-full h-full object-cover' src={AntelopeIsland} alt='/' />
             <img className='w-full h-full object-cover' src={SandDunes} alt='/' />
+            {/* need to add links to allTrails? or just pass in data directly */}
         </div>
     </div>
   )
