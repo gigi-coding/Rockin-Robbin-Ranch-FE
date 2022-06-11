@@ -4,6 +4,7 @@ import Welcome from '../assets/Welcome.jpg';
 import SilverLake from '../assets/SilverLakeRes.jpg'
 import ArchesNP from '../assets/ArchesNP.jpg'
 import Timpanogos from '../assets/Timpanogos.jpg'
+import Weather from './Weather';
 
 
 function Adventures() {
@@ -17,6 +18,9 @@ function Adventures() {
             <img className='w-full h-full object-cover' src={Timpanogos} link={'https://www.alltrails.com/trail/us/utah/mt-timpanogos-timpooneke-trail'} alt='/' />
             <img className='w-full h-full object-cover' src={ArchesNP} alt='/' />
             {/* need to add links to allTrails? or just pass in data directly */}
+        </div>
+        <div>
+          <Weather />
         </div>
     </div>
   )

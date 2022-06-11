@@ -1,8 +1,7 @@
 import React, {useState} from 'react'
-import {BiSearch} from 'react-icons/bi'
 import {WiStars} from 'react-icons/wi'
 import {AiOutlineClose} from 'react-icons/ai'
-import {HiOutline, HiOutlineMenuAlt4} from 'react-icons/hi'
+import {HiOutlineMenuAlt4} from 'react-icons/hi'
 // import {FaFacebook} from 'react-icons/fa'
 
 const NavBar = () => {
@@ -16,7 +15,7 @@ const NavBar = () => {
     return (
     <div className='flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white'>
         <div>
-            <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}>RoseStone Rentals</h1>
+            <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}>Rosestone Rentals</h1>
         </div>
         <ul className='hidden md:flex'>
             <li>About</li>
@@ -25,8 +24,7 @@ const NavBar = () => {
             <li>The Area</li>
         </ul>
         <div className='hidden md:flex'>
-        <BiSearch className='mr-2' size={20} />
-        <WiStars size={20} />
+        <WiStars className='mr-2' size={20} />
         </div>
 
         {/* Hamburger Menu */}
@@ -44,15 +42,13 @@ const NavBar = () => {
             <li className='border-b'>The Rooms</li>
             <li className='border-b'>The Garden</li>
             <li className='border-b'>The Area</li>
+            <li className='border-b'>Winter Fun</li>
             <li className='border-b'>Reviews</li>
             <li className='border-b'>Contact Us</li>
             <div className='flex flex-col'>
                 <button className='my-6'>Search</button>
                 <button>Sky Report</button>
             </div>
-            {/* <div className=''>
-                <FaFacebook className='icon' />
-            </div> */}
             </ul>
         </div>
     </div>
