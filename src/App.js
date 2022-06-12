@@ -4,9 +4,9 @@ import { Route, Routes } from 'react-router-dom';
 
 import Home from './pages/Home'
 import About from './pages/About';
-import { Area } from './pages/Area';
-import { Garden } from './pages/Garden';
-import { ShowRooms } from './pages/ShowRooms';
+import Area from './pages/Area';
+import Garden from './pages/Garden';
+import ShowRooms from './pages/ShowRooms';
 
 
 
@@ -19,7 +19,6 @@ function App() {
     <Route path='area' element={<Area />} />
     <Route path='garden' element={<Garden />} />
     <Route path='rooms' element={<ShowRooms />} />
-    <Route path='/'/>
   </Routes>
 
     
