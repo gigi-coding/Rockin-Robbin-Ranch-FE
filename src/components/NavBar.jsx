@@ -3,6 +3,7 @@ import {WiStars} from 'react-icons/wi'
 import {AiOutlineClose} from 'react-icons/ai'
 import {HiOutlineMenuAlt4} from 'react-icons/hi'
 // import {FaFacebook} from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
     const [nav, setNav] = useState(false); 
@@ -10,7 +11,7 @@ const NavBar = () => {
     const handleNav = () => {
         setNav(!nav);
         setLogo(!logo)
-        // ! means the opposite of what it is
+        // ! means to set to the opposite of what it currently is
     }
     return (
     <div className='flex w-full justify-between items-center h-20 px-4 absolute z-10 text-grey-darker'>
@@ -18,10 +19,10 @@ const NavBar = () => {
             <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}>Rosestone Rentals</h1>
         </div>
         <ul className='hidden md:flex'>
-            <li>About</li>
-            <li>The Rooms</li>
-            <li>The Garden</li>
-            <li>The Area</li>
+            <li> <Link to='/'>Home</Link></li>
+            <li><Link to='/rooms'>The Rooms</Link></li>
+            <li><Link to='/garden'>The Garden</Link></li>
+            <li><Link to='/area'>The Area</Link></li>
         </ul>
         <div className='hidden md:flex'>
         <WiStars className='mr-2' size={20} />

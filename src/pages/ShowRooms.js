@@ -13,6 +13,7 @@ const ShowRooms = () => {
                 <WrittersRoom />
                 <GardenRoom />
                 <Tent />
+                {/* would prefer to grab these from the backend js file and map through them to display them instead of hard coding.. */}
                 <Footer />
         </div>
         
