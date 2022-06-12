@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import Adventures from "../components/Adventures";
 import NavBar from '../components/NavBar';
 import Movie from "../components/Movie";

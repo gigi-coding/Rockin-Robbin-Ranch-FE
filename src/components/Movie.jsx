@@ -1,6 +1,6 @@
 import React from 'react'
 import Bryce2 from '../assets/Bryce2.mp4'
-import { AiOutlineSearch } from 'react-icons/ai'
+// import { AiOutlineSearch } from 'react-icons/ai'
 
 // import video that works!! ;(
 

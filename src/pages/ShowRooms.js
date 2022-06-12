@@ -1,11 +1,18 @@
 import Footer from "../components/Footer";
+import GardenRoom from "../components/GardenRoom";
+import HunterRoom from "../components/HunterRoom";
+import NavBar from "../components/NavBar";
+import Tent from "../components/TentRoom";
+import WrittersRoom from "../components/WrittersRoom";
 
 const ShowRooms = () => {
     return (
         <div>
-                <div>
-                    <h1>Find a room that fits you best! </h1>
-                </div>
+                <NavBar />
+                <HunterRoom />
+                <WrittersRoom />
+                <GardenRoom />
+                <Tent />
                 <Footer />
         </div>
         

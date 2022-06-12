@@ -39,9 +39,7 @@ function Weather() {
             <div className='weather-box'>
                 <div className='temp'></div>
                 <div className='theWeather'>Sunny</div>
-
             </div>
-
         </main>
     </div>
     )

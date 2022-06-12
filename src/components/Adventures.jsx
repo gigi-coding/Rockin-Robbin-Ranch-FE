@@ -13,14 +13,14 @@ function Adventures() {
         <h1>Go on an Incredible Adventure.</h1>
         <div className='grid grid-rows-none md:grid-cols-5 py-4 gap-2 md:gap-4'>
             <img className='w-full h-full object-cover col-span-2 md:col-span-3 row-span-2' src={Welcome} alt='/' />
-            <img className='w-full h-full object-cover' src={Provo} alt='/' />
-            <img className='w-full h-full object-cover' src={SilverLake} alt='/' />
-            <img className='w-full h-full object-cover' src={Timpanogos} link={'https://www.alltrails.com/trail/us/utah/mt-timpanogos-timpooneke-trail'} alt='/' />
-            <img className='w-full h-full object-cover' src={ArchesNP} alt='/' />
-            {/* need to add links to allTrails? or just pass in data directly */}
+            <a href='https://www.alltrails.com/trail/us/utah/bst-provo-canyon-section?u=i'><img className='w-full h-full object-cover' src={Provo} alt='/' /></a>
+            <a href='https://www.alltrails.com/trail/us/utah/silver-lake-trail?u=i'><img className='w-full h-full object-cover' src={SilverLake} alt='/' /></a>
+            <a href='https://www.alltrails.com/trail/us/utah/mt-timpanogos-timpooneke-trail'><img className='w-full h-full object-cover' src={Timpanogos} alt='/' /></a>
+            <a href='https://www.alltrails.com/trail/us/utah/delicate-arch-trail?u=i'><img className='w-full h-full object-cover' src={ArchesNP} alt='/' /></a>
         </div>
         <div>
-          <Weather />
+          {/* <Weather /> */}
+          {/* working on adding the weather API  */}
         </div>
     </div>
   )

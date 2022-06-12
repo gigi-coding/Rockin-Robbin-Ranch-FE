@@ -13,7 +13,7 @@ const NavBar = () => {
         // ! means the opposite of what it is
     }
     return (
-    <div className='flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white'>
+    <div className='flex w-full justify-between items-center h-20 px-4 absolute z-10 text-grey-darker'>
         <div>
             <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}>Rosestone Rentals</h1>
         </div>
@@ -46,8 +46,7 @@ const NavBar = () => {
             <li className='border-b'>Reviews</li>
             <li className='border-b'>Contact Us</li>
             <div className='flex flex-col'>
-                <button className='my-6'>Search</button>
-                <button>Sky Report</button>
+                <button className='my-6'>Sky Report</button>
             </div>
             </ul>
         </div>
