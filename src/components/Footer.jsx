@@ -20,11 +20,10 @@ function Footer() {
                         Rockin Robbins Ranch <br/>
                         430 S. 600 W. <br />
                         Santaquin, UT 84655 <br />
-                        (801) 755-9820
                     </h3>
                     <div className='text-gray'>
                         <div>
-                        Developed by:
+                        In Development by:
                         </div>
                         <h3>Gigi Brigitte</h3>
                         <div className='flex justify-evenly text-4xl'>

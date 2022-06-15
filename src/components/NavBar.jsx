@@ -23,6 +23,9 @@ const NavBar = () => {
             <li><Link to='/rooms'>The Rooms</Link></li>
             <li><Link to='/garden'>The Garden</Link></li>
             <li><Link to='/area'>The Area</Link></li>
+            <li><Link to='/about'>About</Link></li>
+            <li><Link to='/reviews'>Reviews</Link></li>
+            <li><Link to='/contact'>Contact Us</Link></li>
         </ul>
         <div className='hidden md:flex'>
         <WiStars className='mr-2' size={20} />
@@ -39,13 +42,13 @@ const NavBar = () => {
         <div onClick={handleNav} className={nav ? 'absolute text-black left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col' : 'absolute left-[-100%]'}>
             <ul>
             <h1>THE ROCKIN ROBBINS RANCH</h1>
-            <li className='border-b'>About Us</li>
-            <li className='border-b'>The Rooms</li>
-            <li className='border-b'>The Garden</li>
-            <li className='border-b'>The Area</li>
-            <li className='border-b'>Winter Fun</li>
-            <li className='border-b'>Reviews</li>
-            <li className='border-b'>Contact Us</li>
+            <li className='border-b'><Link to='/about'>About</Link></li>
+            <li className='border-b'><Link to='/rooms'>The Rooms</Link></li>
+            <li className='border-b'><Link to='/garden'>The Garden</Link></li>
+            <li className='border-b'><Link to='/area'>The Area</Link></li>
+            {/* <li className='border-b'><Link to='/winter'>Winter Fun</Link></li> */}
+            <li className='border-b'><Link to='/reviews'>Reviews</Link></li>
+            <li className='border-b'><Link to='/contact'>Contact Us</Link></li>
             <div className='flex flex-col'>
                 <button className='my-6'>Sky Report</button>
             </div>
