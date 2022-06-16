@@ -29,3 +29,13 @@ Fork and clone the following repository: https://github.com/gigi-coding/Rockin-R
 Inside your VS Code terminal, run "npm i" and then "npm start"
 App will automatically open in the browser (Google Chrome).
 This will allow you to view the application on the browser before its deployment.
+
+### Technologies Used
+React
+Express
+MongoDB
+Tailwind
+CSS
+
+### STRETCH GOALS
+I will be continuing to develop this application and will be working with the owner to finish a product they are happy with.
