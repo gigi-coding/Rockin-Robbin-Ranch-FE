@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import {WiStars} from 'react-icons/wi'
 import {AiOutlineClose} from 'react-icons/ai'
 import {HiOutlineMenuAlt4} from 'react-icons/hi'
-// import {FaFacebook} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 const NavBar = () => {

@@ -1,5 +1,5 @@
 ### PROJECT
-
+This project is a website for a room rental on a farm property in Utah. 
 
 
 
